@@ -1,0 +1,28 @@
+.nav{
+  display: flex;
+  justify-content:flex-start;
+}
+#logoHenry {
+  margin-right: 1rem;
+}
+.navbar-brand {
+    display: flex;
+    justify-content: flex-start;
+    color: rgba(206, 206, 206, 0.411);
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 4rem;
+    margin-right: 5rem;
+    font-style: none;
+
+}
+.aboutme {
+  display: flex;
+  justify-content: flex-start;
+  color: rgba(206, 206, 206, 0.411);
+  margin-top: 4.6rem;
+  margin-bottom: 4rem;
+  margin-left: 4rem;
+  margin-right: 10rem;
+  text-decoration: none;
+}

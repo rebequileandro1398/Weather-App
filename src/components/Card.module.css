@@ -1,0 +1,43 @@
+.card{
+    display: flex;
+    flex-direction:column;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff13; 
+    width: 13rem;
+    align-content: center;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    text-align: center;
+    color: rgb(206, 206, 206);
+    backdrop-filter: blur(.5rem);
+    transition: color 0.2s linear 0.2s;
+}
+.card:hover{
+  background-color: rgba(93, 244, 255, 0.226);
+  color: black;
+}
+#name{
+  color: rgb(206, 206, 206);
+}
+#name:hover {
+  color:rgb(255, 255, 255);;
+}
+.btn {
+   background-color: transparent;
+   font-size: 0.8rem;
+   text-align: center;
+   border: none;
+   width: 2rem;
+   height: 2rem;
+   border-radius: 0.5rem;
+   margin: 0.2rem;
+   align-self: flex-end;
+  }
+  .btn:hover {
+    background-color:  rgba(38, 241, 255, 0.226);
+  }
+  .btn:focus {
+    outline: none;
+  }
