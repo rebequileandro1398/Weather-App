@@ -9,7 +9,7 @@ import Ciudad from './components/Ciudad'
 function App() {
   const [cities, setCities] = useState([]);
   const onSearch = ciudad => {
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=0d035883f56f482051d12126bf4c6aa8&units=metric`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=0d035883f56f482051d12126bf4c6aa8&units=metric`)
     .then(response => response.json())
     .then(recurso =>{
       if(recurso.main !== undefined){
